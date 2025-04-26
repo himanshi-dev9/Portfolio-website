@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Himanshi Dalal | MERN Full Stack Developer</title>
+  <link rel="stylesheet" href="project4.css" />
+  <script src="project4.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm <strong>Himanshi Dalal</strong>, a passionate MERN Stack Web Developer with a strong foundation in HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB. I bring hands-on experience from various personal and guided projects, combined with a professional background in digital operations and HR. I thrive in remote environments and am actively seeking opportunities to contribute to impactful web applications.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript, React.js</li>
+      <li><strong>Backend:</strong> Node.js, Express.js</li>
+      <li><strong>Database:</strong> MongoDB, MySQL</li>
+      <li><strong>Tools:</strong> Git, GitHub, VS Code, Postman</li>
+      <li><strong>Others:</strong> REST APIs, Responsive Design, Firebase (basic)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A personal responsive website to showcase my work, skills, and contact details. Built using HTML, CSS, and JavaScript. (Yes, the one you’re viewing!)</p>
+    </div>
+
+    <div class="project">
+      <h3>Quizmaster</h3>
+      <p>A dynamic quiz web app with timer and score tracking using HTML, CSS, and JavaScript. Used for practice of logic implementation and DOM manipulation.</p>
+    </div>
+
+    <div class="project">
+      <h3>Code Runner</h3>
+      <p>A simple web-based code editor that can run HTML, CSS, and JavaScript code in the browser. Built using HTML, CSS, and JS for practice in IFrame and live editing.</p>
+    </div>
+
+    <div class="project">
+      <h3>Google Clone (UI)</h3>
+      <p>Cloned the frontend UI of Google Search using only HTML and CSS as part of UI practice exercises.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Himanshi Dalal | MERN Stack Developer | Indore, MP</p>
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      alert('Thank you for your message! I will get back to you soon.');
+    });
+  </script>
+</body>
+</html>
